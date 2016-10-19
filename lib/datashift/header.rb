@@ -11,7 +11,7 @@ module DataShift
 
     attr_accessor :source, :presentation
 
-    def initialize(source:)
+    def initialize(source)
       @source = source
       @presentation = source
     end
